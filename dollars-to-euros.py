@@ -5,13 +5,13 @@
 
 
 
-dollar_amount=float(input("Enter dollar amount to be converted : "))
+dollar_amount=float(input("Enter dollar amount to be converted : $"))
 
 euros = dollar_amount * .94540
 print("----------------------")
-print("Amount of euros: " +str(euros))
+print("Amount of euros : €" +str(euros))
 print("----------------------")
-again= input("Would you like convert again ")
+again= input("Would you like convert again : ")
 if again == "Yes":
     x=1
 
@@ -21,12 +21,12 @@ elif again == "No":
 
 
 while x == 1:
-    dollar_amount=float(input("Enter dollar amount to be converted : "))
+    dollar_amount=float(input("Enter dollar amount to be converted : $"))
     euros = dollar_amount * .94540
     print("----------------------")
-    print("Amount of euros: " + str(euros) )
+    print("Amount of euros : €" + str(euros) )
     print("-----------------------")
-    again= input("Would you like convert again ")
+    again= input("Would you like convert again : ")
     if again == "Yes":
         x=1
 
